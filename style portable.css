@@ -1,0 +1,65 @@
+/******Media Queries******/
+
+/******Media NAV******/
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    .navigation {
+      flex-basis: 100%;
+    }
+    .navigation a:hover {
+      border-bottom: 3px solid #0065FC;
+      border-top: transparent; 
+    }
+        
+    /******MEDIA SEARCH******/
+    
+    .search .search-text {
+      display: none
+    }
+    .fas.fa-search {
+      display: inline;
+      background-color: inherit;
+    }
+
+      
+    /******MEDIA HOST + POPULAR******/
+     
+    .host-list .popular-flex {
+      flex-direction: column;
+    } 
+    .host-list {
+      flex-direction: column;
+    }
+    .popular {
+      order: -1;
+    }
+        
+    /*******MEDIA ACTIVITIES******/
+    
+    .Marseille_activities {
+      padding: 10px;
+      flex-direction : column;
+    }
+    .activities_card {
+      width : 100%;
+    }
+    .vertical_activities {
+      width : 100%;
+    }
+    .vertical_activities .activities_card {
+      width : 100%;
+    }
+          
+    /******FOOTER******/
+    .footer {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      justify-content: flex-start;
+      }
+      
+      .footer-in {
+      margin-left: 0;
+      }
+    
+    }

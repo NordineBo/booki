@@ -1,0 +1,47 @@
+/******Media Queries******/
+
+/******Media NAV******/
+
+@media all and (min-width: 768px) and (max-width: 992px){
+	
+	.navigation {
+	  flex-basis: 45%;
+	}
+		
+	/******MEDIA SEARCH******/
+	
+	.search .search-text {
+	  display:none;
+	}
+	.fas.fa-search {
+	  display: inline;
+	  background-color: inherit;
+	}
+
+	
+	/******MEDIA HOST + POPULAR******/
+	
+	.host-list .popular-flex {
+	  flex-direction: column;
+	}		
+	.host-list {
+	  flex-direction: column;
+	}
+	.popular {
+	  order: -1;
+	}
+
+		
+	/******FOOTER******/
+		
+	.footer {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		justify-content: flex-start;
+	  }
+	  
+	  .footer-in {
+		margin-left: 0;
+	  }
+	}
